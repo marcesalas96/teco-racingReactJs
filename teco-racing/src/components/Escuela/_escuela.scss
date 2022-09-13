@@ -1,0 +1,168 @@
+.escuela {
+    &-tittle {
+        text-align: center;
+        margin: 2rem;
+    }
+
+    &__contenedorBlanco {
+        padding-top: 1rem;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    &__contenedor {
+        border-top: 2px #000 solid;
+        padding-top: 1rem;
+        max-width: 1100px;
+        margin: auto;
+
+        &__1Parte {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            margin-bottom: 1rem;
+
+            @media screen and (max-width: 900px) {
+                align-items: center;
+            }
+            @media screen and (max-width: 600px) {
+                flex-direction: column;
+            }
+
+            &__video {
+                height: 300px;
+
+                @media screen and (max-width: 900px) {
+                    width: 400px;
+                }
+                @media screen and (max-width: 420px) {
+                    width: 330px;
+                }
+            }
+            &__texto{
+                margin-left: 5px;
+            }
+        }
+
+        &__2Parte {
+            border-top: 2px #000 solid;
+            padding-top: 1rem;
+            &__texto{
+                margin-left: 5px;
+            }
+
+            &__divMultimedia {
+                height: 100%;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 94px repeat(3, 1fr);
+                grid-row-gap: 1rem;
+                height: 600px;
+                margin-bottom: 1rem;
+
+                @media screen and (max-width: 750px) {
+                    grid-template-rows: 94px repeat(4, 1fr);
+                }
+
+                &__img1 {
+                    border-radius: 3px;
+                    grid-area: 2/1/5/2;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    @media screen and (max-width: 750px) {
+                        grid-area: 2 / 1 / 4 / 4;
+                        height: 100%;
+                    }
+                }
+
+                &__video {
+                    border-radius: 3px;
+                    grid-area: 2/2/5/3;
+                    width: 100%;
+                    height: 100%;
+
+                    @media screen and (max-width: 750px) {
+                        grid-area: 3 / 1 / 4 / 4;
+                        height: 180px;
+                        display: none;
+                    }
+                }
+
+                &__img2 {
+                    border-radius: 3px;
+                    grid-area: 2/3/5/4;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                    @media screen and (max-width: 750px) {
+                        grid-area: 4 / 1 / 6 / 4;
+                        height: 100%;
+                    }
+                }
+
+                &__img3 {
+                    border-radius: 3px;
+                    grid-area: 2/2/5/3;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            &__divMultimedia2 {
+                height: 100%;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 94px repeat(3, 1fr);
+                grid-row-gap: 1rem;
+                height: 700px;
+                margin-bottom: 1rem;
+
+                &__imgContenedor {
+                    grid-area: 2 / 1 / 5 / 4;
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    @media screen and (max-width: 750px) {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    &__img {
+                        width: 350px;
+                        border-radius: 3px;
+                        height: 100%;
+                        object-fit: cover;
+
+                        @media screen and (max-width: 1050px) {
+                            width: 300px;
+                        }
+
+                        @media screen and (max-width: 900px) {
+                            width: 250px;
+                        }
+
+                        @media screen and (max-width: 750px) {
+                            width: 450px;
+                            height: 200px;
+                        }
+                        @media screen and (max-width: 450px) {
+                            width: 300px;
+                            height: 200px;
+                        }
+                        &-left{
+                            @extend .escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img;
+                            object-position: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

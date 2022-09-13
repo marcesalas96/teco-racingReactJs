@@ -1,0 +1,23 @@
+.torneo__eTruffa{
+    grid-area: 2/2/6/6;
+    height: 750px;
+    @media screen and (max-width: 724px) {
+        grid-area: 3/1/6/6;
+        position: relative;
+        z-index: 100;
+        height: 500px;
+    }
+    &__img{
+        border-radius: 3px;
+        width: 100%;
+        object-fit: fill;
+        height: 750px;
+        @media screen and (max-width: 724px) {
+            height: 500px;
+        }
+    }
+    &__img2{
+        @extend .torneo__eTruffa__img;
+        object-fit: fill;
+    }
+}

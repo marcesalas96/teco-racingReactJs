@@ -1,0 +1,24 @@
+.spanCountdown{
+    background-color: #d40000;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.5px;
+    @media screen and (max-width: 724px) {
+        width: 100%;
+    }
+    & span{
+        font-size: 1.8rem;
+        color: #fff;
+        text-shadow: 1px 0 2px #000;
+        & svg{
+            position: relative;
+            top: -2px; 
+        }
+    }
+}
+

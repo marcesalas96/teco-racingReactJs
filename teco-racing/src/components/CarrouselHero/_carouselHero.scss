@@ -1,0 +1,36 @@
+.carousel{
+    z-index: 0;
+    height: 80vh;
+    @media screen and (max-width: 990px){
+        z-index: -1;
+        height: 70vh;
+    }
+    &-item{
+        height: 80vh;
+        @media screen and (max-width: 990px) {
+            height: 70vh;
+        }
+    }
+    &__inner{
+        height: 100%;
+    }
+}
+
+.carousel-indicators{
+    display: none;
+}
+.carousel__img{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(1);
+    transition: filter 1.5s ease;
+    &:hover{
+        filter: grayscale(0);
+        transition: filter 1.5s ease;
+    }
+    @media screen and (max-width: 994px ) {
+        height: 70vh;
+    }
+}
