@@ -1,0 +1,26 @@
+.galeriaContenedor{
+    column-count: 3;
+    column-width: 33%;
+    padding: 0 12px;
+    @media screen and (max-width: 600px) {
+        column-count: 2;
+        column-width: auto;
+    }
+    @media screen and (max-width: 370px) {
+        column-count: 1;
+        column-width: auto;
+    }
+    &__div{
+        cursor: pointer;
+        transition: all ease 350ms;
+        margin-bottom: 12px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.59);
+    }
+    &__fotos{
+        min-height: 300px;
+        width: 100%;
+        border-radius: 3px;
+        object-fit: cover;
+        max-height: 700px;
+    }
+}

@@ -1,0 +1,19 @@
+.titulo__contenedor{
+    &__titulo{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    &__link{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        text-decoration: none;
+        padding: 0.3rem;
+        & span {
+            transition: all 0.5s ease-in;
+            &:hover{
+                color: #FC0100;
+            }
+        }
+    }
+}

@@ -9,7 +9,7 @@ export const Header = () => {
          <Wrapper>
             <LogoContainer>
                <MenuLink to={'/'}>
-                  <LogoImg src="../images/logoTecoR.png" alt="logo teco racing" />
+                  <LogoImg src="../images/logos/logoTecoR.png" alt="logo teco racing" />
                </MenuLink>
             </LogoContainer>
             <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>

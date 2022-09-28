@@ -22,13 +22,13 @@ export const Escuela = () => {
                         <div className='escuela__contenedor__2Parte__divMultimedia'>
                             <SuperiorBar h3={"ENTRENAMIENTO DURO, COMBATE FACIL"} className={"superiorBar"} estado={false} />
 
-                            <img src='../images/escuelaSantiago.jpeg' className='escuela__contenedor__2Parte__divMultimedia__img1' alt='' />
+                            <img src='../images/entrenamientos/entrenamiento2.jpeg' className='escuela__contenedor__2Parte__divMultimedia__img1' alt='' />
 
                             <video loading='lazy' autoPlay muted loop alt='' className='escuela__contenedor__2Parte__divMultimedia__video'>
                                 <source src='../videos/escuela2.mp4' type='video/mp4' />
                             </video>
 
-                            <img src='../images/escuelita1.jpeg' className='escuela__contenedor__2Parte__divMultimedia__img2' alt='' />
+                            <img src='../images/escuelita/escuelita1.jpeg' className='escuela__contenedor__2Parte__divMultimedia__img2' alt='' />
                         </div>
                         <p className='escuela__contenedor__2Parte__texto'>
                             ENTRENAMOS LOS FINES DE SEMANA EN DISTINTAS UBICACIONES, DESDE PRUEBAS SENCILLAS HASTA PRUEBAS CON ALTOS NIVELES DE DIFICULTAD. NUESTRO LEMA ES ENTRENAMIENTO DURO COMBATE FACIL.
@@ -42,9 +42,9 @@ export const Escuela = () => {
                     <div className='escuela__contenedor__2Parte__divMultimedia2 '>
                         <SuperiorBar h3={"Y LOS RESULTADOS LLEGAN"} className={"superiorBar-Blanco"} estado={false} />
                         <div className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor'>
-                            <img src='../images/escuelita2.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img' />
-                            <img src='../images/escuelita5.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img' />
-                            <img src='../images/escuelita6.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img' />
+                            <img src='../images/torneoCentroConve/torneoCC (2).jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img' />
+                            <img src='../images/escuelita/escuelita5(2).jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img' />
+                            <img src='../images/escuelita/escuelita6.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img' />
                         </div>
                     </div>
                 </div>

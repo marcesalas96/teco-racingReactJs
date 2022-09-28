@@ -10,7 +10,7 @@ export const CarrouselHero = () => {
             <Carousel.Item>
                     <img
                         className="carousel__img"
-                        src="../images/imagenCarousel1Recortada.png"
+                        src="..\images\carouselHero\alfredoEntrenamiento.jpeg"
                         alt="First slide"
                     /> 
                     <SpanHero titulo1={'CONOCE A '} titulo2={'NUESTRO EQUIPO'} ruta={'nosotros'}/>
@@ -18,7 +18,7 @@ export const CarrouselHero = () => {
             <Carousel.Item>
                     <img
                         className="carousel__img"
-                        src="../images/imagenCarousel2Recortada.png"
+                        src="../images/carouselHero/imagenCarousel2Recortada.png"
                         alt="Second slide"
                     />
                     <SpanHero titulo1={'MIRA'} titulo2={'NUESTROS TORNEOS'} ruta={'torneos'}/>
@@ -26,7 +26,7 @@ export const CarrouselHero = () => {
             <Carousel.Item>
                     <img
                         className="carousel__img"
-                        src="../images/imagenCarousel3.jpeg"
+                        src="../images/carouselHero/imagenCarousel3.jpeg"
                         alt="Third slide"
                     />
                     <SpanHero titulo1={'¿SABIAS QUE '} titulo2={'TENEMOS NUESTRA ESCUELA?'} ruta={'escuela'}/>

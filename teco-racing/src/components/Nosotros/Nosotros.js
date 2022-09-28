@@ -10,7 +10,7 @@ export const Nosotros = () => {
                 <h1 className='nosotros-tittle'>¿QUIENES SOMOS?</h1>
                 <div className='nosotros__container'>
                     <div className='nosotros__container-1Parte'>
-                        <img src='../images/equipo.png' alt='' className='nosotros__container-1Parte__img' />
+                        <img src='../images/carouselHero/alfredoEntrenamiento.jpeg' alt='' className='nosotros__container-1Parte__img' />
                         <p className='nosotros__container-1Parte__texto'>SOMOS UNA EMPRESA FAMILIAR DEDICADA A LA MEDICION DEPORTIVA DE CARRERAS DE PRESOSTATOS. </p>
                     </div>
                 </div>
@@ -18,11 +18,11 @@ export const Nosotros = () => {
             <section className='color1'>
                 <div className='nosotros__container'>
                     <div className='escuela__contenedor__2Parte__divMultimedia2 '>
-                        <SuperiorBar h3={"NUESTRO EQUIPO"} className={"superiorBar"} estado={false} />
+                        <SuperiorBar h3={"NUESTRAS HERRAMIENTAS"} className={"superiorBar"} estado={false} />
                         <div className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor'>
-                            <img src='../images/elTecoMovil.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img' />
-                            <img src='../images/campamento.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img-left' />
-                            <img src='../images/campamento2.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img-left' />
+                            <img src='../images/nosotros/elTecoMovil.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img' />
+                            <img src='../images/nosotros/campamento.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img-left' />
+                            <img src='../images/nosotros/centroDeComputos.jpeg' alt='' className='escuela__contenedor__2Parte__divMultimedia2__imgContenedor__img-left' />
                         </div>
                     </div>
                 </div>

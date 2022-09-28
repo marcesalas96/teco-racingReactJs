@@ -1,4 +1,3 @@
-import Carousel from 'react-bootstrap/Carousel';
 import './_sponsors.scss'
 
 export const Sponsor = () => {
@@ -7,133 +6,169 @@ export const Sponsor = () => {
             <div className='slider__container'>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/atenor.png"
+                        src="../images/logos/pieve.jpg"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/5marias.png"
+                        src="../images/logos/velez.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/cervezaSalta.jpg"
+                        src="../images/logos/reaktor.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/comercialLima.png"
+                        src="../images/logos/atenor.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/logoClub.png"
+                        src="../images/logos/5marias.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/malkus.png"
+                        src="../images/logos/cervezaSalta.jpg"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/marinaro.png"
+                        src="../images/logos/comercialLima.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/logoAquaflass.jpg"
+                        src="../images/logos/logoClub.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/pyc.png"
+                        src="../images/logos/malkus.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/urundel.png"
+                        src="../images/logos/marinaro.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/arqe3.jpeg"
+                        src="../images/logos/logoAquaflass.jpg"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/atenor.png"
+                        src="../images/logos/pyc.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/5marias.png"
+                        src="../images/logos/urundel.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/cervezaSalta.jpg"
+                        src="../images/logos/pieve.jpg"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/comercialLima.png"
+                        src="../images/logos/velez.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/logoClub.png"
+                        src="../images/logos/arqe3.jpeg"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/malkus.png"
+                        src="../images/logos/reaktor.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/marinaro.png"
+                        src="../images/logos/atenor.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/logoAquaflass.jpg"
+                        src="../images/logos/5marias.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/pyc.png"
+                        src="../images/logos/cervezaSalta.jpg"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/urundel.png"
+                        src="../images/logos/comercialLima.png"
                         alt="First slide"
                     />
                 </div>
                 <div className="slider__container__slide">
                     <img
-                        src="../images/arqe3.jpeg"
+                        src="../images/logos/logoClub.png"
+                        alt="First slide"
+                    />
+                </div>
+                <div className="slider__container__slide">
+                    <img
+                        src="../images/logos/malkus.png"
+                        alt="First slide"
+                    />
+                </div>
+                <div className="slider__container__slide">
+                    <img
+                        src="../images/logos/marinaro.png"
+                        alt="First slide"
+                    />
+                </div>
+                <div className="slider__container__slide">
+                    <img
+                        src="../images/logos/logoAquaflass.jpg"
+                        alt="First slide"
+                    />
+                </div>
+                <div className="slider__container__slide">
+                    <img
+                        src="../images/logos/pyc.png"
+                        alt="First slide"
+                    />
+                </div>
+                <div className="slider__container__slide">
+                    <img
+                        src="../images/logos/urundel.png"
+                        alt="First slide"
+                    />
+                </div>
+                <div className="slider__container__slide">
+                    <img
+                        src="../images/logos/arqe3.jpeg"
                         alt="First slide"
                     />
                 </div>

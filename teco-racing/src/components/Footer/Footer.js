@@ -36,7 +36,7 @@ export const Footer = () => {
                     </ul>
                 </div>
                 <div className='footer-marca'>
-                    <img src='../images/logoTecoR.png' alt=""/>
+                    <img src='../images/logos/logoTecoR.png' alt=""/>
                     <span className='footer-marca-span'>Pagina diseñada por <a className='footer-marca-link' href='https://www.linkedin.com/in/marcelo-salas-295b09216/' target="_blank" rel='noreferrer'>MARCELO SALAS</a></span>
                 </div>
                 <div className='footer-redes'>

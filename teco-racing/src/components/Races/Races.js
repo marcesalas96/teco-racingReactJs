@@ -8,18 +8,18 @@ export const Races = () => {
     return (
         <section className='color1'>
             <div className='contenedorDeTodito'>
-                <audio autoPlay loop controls>
+                <audio autoPlay="autoplay" loop controls>
                     <source src='../musica/juntosALaPar.mp3' />
                 </audio>
                 <div className='nextRaces'>
                     <SuperiorBar h3={"TORNEOS"} className={"superiorBar"} ruta={"torneos"} estado={true} />
                     <div className={!nextRace ? "nextRaces__carreraActual" : "nextRaces__carreraActual siguiente"} onClick={() => { setNextRace(false) }}>
                         <h5 className="nextRaces__carreraActual__fecha fecha">OCT 01</h5>
-                        <h5 className="nextRaces__carreraActual__h5">A DEFINIR</h5>
+                        <h5 className="nextRaces__carreraActual__h5">CIUDAD OESTE</h5>
                     </div>
                     <div className="nextRaces__imagenGrande">
                         {!nextRace &&
-                            <> <img src='../images/fecha3.jpeg' className='nextRaces__imagenGrande__img' alt='' /> <CountdownSpan fecha={'2022-10-01 15:00:00'} /> </>
+                            <> <img src='../images/torneoET3/finalTorneo.png' className='nextRaces__imagenGrande__img' alt='' /> <CountdownSpan fecha={'2022-10-01 15:00:00'} /> </>
                             // :
                             // <><img src='../images/fecha3.jpeg' className='nextRaces__imagenGrande__img' alt='' /><CountdownSpan fecha={'2022-10-01 15:00:00'} /></>
                         }

@@ -11,7 +11,7 @@
             &__img {
                 width: 100%;
                 border-radius: 3px;
-                object-fit: cover;
+                object-fit: contain;
                 box-shadow: 1px 1px 1px #fff;
                 filter: grayscale(0.3);
             }

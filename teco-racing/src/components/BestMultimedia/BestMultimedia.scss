@@ -51,7 +51,14 @@
                         @media screen and (max-width: 724px) {
                             height: 200px;
                             min-height: 200px; 
-                            object-position:center ;                       }
+                            object-position:center ;                       
+                        }
+                        &-entrenamiento{
+                            @extend .bestMultimedia__multimedia__link__card__container__img;
+                            @media screen and (max-width: 724px) { 
+                                object-position: 30% 20%;                       
+                            }
+                        }
                     }
 
                     &__contenedor {
