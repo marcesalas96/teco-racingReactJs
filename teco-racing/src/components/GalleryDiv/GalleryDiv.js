@@ -1,11 +1,15 @@
 import './_galleryDiv.scss'
 import { FaPlay } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 export const GalleryDiv = () => {
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0});
+      }, []);
     return (
         <div className='galeria__contenedor'>
-            <Link to={'/fotos/torneoEduardoTruffaFecha3'} className="galeria__contenedor__principal link__galeria" >
+            <Link to={'/fotos/torneoEduardoTruffaFinal'} className="galeria__contenedor__principal link__galeria" >
                 {/* <div className='galeria__contenedor__principal'> */}
                     <img className='galeria__contenedor__principal__img' src='../images/torneoET3/finalTorneo.png' loading='lazy' />
                     <div className='galeria__contenedor__principal__texto'>

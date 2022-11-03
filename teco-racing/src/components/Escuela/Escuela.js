@@ -2,10 +2,13 @@ import './_escuela.scss'
 import { Sponsor } from '../Sponsors/Sponsors'
 import { Footer } from '../Footer/Footer'
 import { SuperiorBar } from '../SuperiorBar.js/SuperiorBar'
-
+import { useEffect } from 'react'
 
 export const Escuela = () => {
-    return (
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0});
+      }, []);
+    return ( 
         <main className='main'>
             <section className='color1'>
                 <h1 className='escuela-tittle'>NUESTRA ESCUELA</h1>

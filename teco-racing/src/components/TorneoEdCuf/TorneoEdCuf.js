@@ -28,7 +28,7 @@ export const TorneoEdCuff = () => {
                             }
                             {
                                 fecha === 3 &&
-                                <> </>
+                                <img src='../images/resultados/posicionesFecha3.png' className='torneo__eTruffa__img3' alt='' />
                             }
                             {
                                 fecha === 4 &&

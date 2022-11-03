@@ -2,8 +2,11 @@ import './_nosotros.scss'
 import { Sponsor } from '../Sponsors/Sponsors'
 import { Footer } from '../Footer/Footer'
 import { SuperiorBar } from '../SuperiorBar.js/SuperiorBar'
-
+import { useEffect } from 'react'
 export const Nosotros = () => {
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0});
+      }, []);
     return (
         <main className='main'>
             <section className='color2'>
